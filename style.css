@@ -1,0 +1,292 @@
+.about-me {
+  font-family: "Spectral", serif;
+  text-align: center;
+  padding-left: 250px;
+  padding-right: 250px;
+  word-spacing: 5px;
+  line-height: 30px;
+}
+
+#quote {
+  font-family: "Tangerine", cursive;
+  text-align: center;
+  font-size: 42px;
+  font-weight: normal;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  padding-left: 20px;
+}
+
+/*  Title Portfolio */
+.header-body {
+  text-align: center;
+  font-family: "Spectral", serif;
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: 3px;
+  margin-top: 50px;
+}
+.header-back {
+  background-color: #fed900;
+  height: 150px;
+  border: 2px solid #fed900;
+}
+
+/*  Title Portfolio End*/
+
+/* Portfolio */
+.proj-title {
+  text-align: center;
+  color: black;
+  font-family: "Spectral SC", serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 400px;
+  max-width: 400px;
+  max-height: 200px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+#bck-gen {
+  background-image: url("project/bck-gen2.png");
+  background-size: cover;
+}
+
+#book-list {
+  background-image: url("project/book.png");
+  background-size: cover;
+}
+
+#loan-calc {
+  background-image: url("project/loan-calc.png");
+  background-size: cover;
+}
+
+#num-gues {
+  background-image: url("project/num-guess.png");
+  background-size: cover;
+}
+
+#task-list {
+  background-image: url("project/task-list.png");
+  background-size: cover;
+}
+
+#color-game {
+  background-image: url("project/col-game.png");
+  background-size: cover;
+}
+#robo-friends {
+  background-image: url("project/robo-friends.png");
+  background-size: cover;
+}
+
+#letterA {
+  background-image: url("project/letterA.png");
+  background-size: cover;
+  margin-top: 10px;
+}
+
+.middle {
+  position: relative;
+  transition: 0.5s ease;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  margin-left: 150px;
+  padding-left: 100px;
+  height: 75px;
+  width: 50px;
+  bottom: 120px;
+  right: 50px;
+}
+
+.item {
+  height: 250px;
+}
+
+.item:hover .image {
+  opacity: 0.2;
+}
+
+.item:hover .middle {
+  opacity: 1;
+}
+
+.item:hover {
+  background-color: #fed900;
+  height: 250px;
+}
+
+.text {
+  font-family: "Spectral SC", serif;
+  font-size: 10px;
+  width: 100px;
+}
+
+.item:hover #construction {
+  position: relative;
+  top: 50px;
+  right: 180px;
+}
+
+.item:hover #letterA-title {
+  position: relative;
+  left: 100px;
+}
+button {
+  height: 40px;
+  width: 75px;
+  margin-left: 20px;
+  border-radius: 40px;
+  padding: 0;
+  text-shadow: 0 1px 1px rgba(204, 169, 13, 0.2);
+  background-color: #fed900;
+  color: black;
+  opacity: 0.6;
+  text-align: center;
+  outline: none;
+}
+
+.button-position {
+  position: relative;
+  right: 20px;
+  width: 200px;
+}
+
+#construction {
+  color: red;
+  font-weight: bold;
+}
+
+/* Portfolio End */
+
+/* Technologies */
+.tech-container {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.tech-head {
+  font-family: "Spectral", serif;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.tech-sub-head {
+  font-family: "Spectral", serif;
+  font-size: 12px;
+  font-weight: normal;
+}
+.tech-image {
+  width: 50px;
+  height: 50px;
+}
+
+.fa-html5 {
+  color: #e34f26;
+}
+
+.fa-css3 {
+  color: #086494;
+}
+
+.fa-js {
+  color: #f0db4f;
+}
+
+.fa-react {
+  color: #00d8ff;
+}
+
+/* Technologies End */
+
+/* CONTACT */
+
+footer {
+  position: relative;
+  background: #6cf;
+}
+
+.contact-header {
+  text-align: center;
+  font-family: "Spectral", serif;
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: 3px;
+  margin: 0;
+  color: #fed900;
+}
+.contact-back {
+  background-color: #262727;
+  height: 250px;
+  border: 2px solid #262727;
+}
+
+#contact {
+  height: 100px;
+}
+
+#footer {
+  letter-spacing: 3px;
+}
+
+.icons {
+  margin-left: 450px;
+  margin-top: 20px;
+}
+.contact-icon {
+  padding-left: 60px;
+  color: #fed900;
+}
+
+/***** MOBILE ******/
+@media all and (max-width: 800px) {
+  .about-me {
+    padding-left: 30px;
+    padding-right: 30px;
+    word-spacing: 5px;
+    line-height: 30px;
+  }
+  .item:hover {
+    width: 450px;
+  }
+
+  .item {
+    padding-left: 10px;
+    height: 250px;
+  }
+
+  .portfolio {
+    grid-row-gap: 40px;
+    padding-left: 0px;
+  }
+
+  .icons {
+    margin-left: 20px;
+
+    display: inline;
+  }
+
+  .tech-container {
+    margin-left: 30px;
+    margin-right: 0px;
+  }
+}
