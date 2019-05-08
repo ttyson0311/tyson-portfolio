@@ -127,7 +127,7 @@
 }
 
 .item:hover {
-  background-color: #fed900;
+  background-color: #fbe45a;
   height: 250px;
 }
 
@@ -249,7 +249,7 @@ footer {
 }
 
 .icons {
-  margin-left: 450px;
+  margin-left: 480px;
   margin-top: 20px;
 }
 .contact-icon {
@@ -280,8 +280,7 @@ footer {
   }
 
   .icons {
-    margin-left: 30px;
-
+    margin-left: 10px;
     display: inline;
   }
 
