@@ -100,6 +100,12 @@
   margin-top: 10px;
 }
 
+#math-game {
+  background-image: url("project/math-game.png");
+  background-size: cover;
+  margin-top: 10px;
+}
+
 .middle {
   position: relative;
   transition: 0.5s ease;
