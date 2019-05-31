@@ -268,12 +268,13 @@ footer {
 }
 
 /***** MOBILE ******/
-@media screen and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .about-me {
     padding-left: 30px;
     padding-right: 30px;
     word-spacing: 5px;
     line-height: 30px;
+    background-color: red;
   }
   .item:hover {
     width: 450px;
@@ -287,6 +288,41 @@ footer {
   .portfolio {
     grid-row-gap: 40px;
     padding-left: 0px;
+  }
+
+  .icons {
+    margin-left: 0px;
+    display: inline;
+  }
+
+  .tech-container {
+    margin-left: 30px;
+    margin-right: 0px;
+  }
+}
+
+/***** TABLET AND LANDSCAPE MOBILE******/
+@media (min-width: 481px) and (max-width: 767px) {
+  .about-me {
+    padding-left: 30px;
+    padding-right: 30px;
+    word-spacing: 5px;
+    line-height: 30px;
+    background-color: green;
+  }
+  .item:hover {
+    width: 450px;
+  }
+
+  .item {
+    padding-left: 10px;
+    height: 250px;
+  }
+
+  .portfolio {
+    grid-row-gap: 40px;
+    padding-left: 0px;
+    margin: auto;
   }
 
   .icons {
