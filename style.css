@@ -274,7 +274,6 @@ footer {
     padding-right: 30px;
     word-spacing: 5px;
     line-height: 30px;
-    background-color: red;
   }
   .item:hover {
     width: 450px;
@@ -302,7 +301,7 @@ footer {
 }
 
 /***** TABLET AND LANDSCAPE MOBILE******/
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 812px) {
   .about-me {
     padding-left: 30px;
     padding-right: 30px;
