@@ -307,7 +307,7 @@ footer {
     padding-right: 30px;
     word-spacing: 5px;
     line-height: 30px;
-    background-color: purple;
+    background-color: orange;
   }
   .item:hover {
     width: 450px;
@@ -320,7 +320,7 @@ footer {
 
   .portfolio {
     grid-row-gap: 40px;
-    padding-left: 250px;
+    padding-left: 350px;
     margin: auto;
   }
 

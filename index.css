@@ -368,7 +368,7 @@ body {
 @media (min-width: 481px) and (max-width: 812px) {
   .container {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(900px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(10px, 1fr));
   }
   .header {
     top: 30px;
@@ -376,7 +376,7 @@ body {
   }
   #name {
     font-size: 10px;
-    border: 1px solid purple;
+    border: 1px solid orange;
   }
 
   #title {
