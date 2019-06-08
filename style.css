@@ -300,7 +300,6 @@ footer {
     padding-right: 30px;
     word-spacing: 5px;
     line-height: 30px;
-    background-color: orange;
   }
   .item:hover {
     width: 450px;
@@ -315,10 +314,6 @@ footer {
     grid-row-gap: 40px;
     padding-left: 180px;
     margin: auto;
-  }
-
-  .proj-title {
-    margin-right: 50px;
   }
 
   .icons {
