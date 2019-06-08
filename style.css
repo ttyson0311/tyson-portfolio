@@ -307,7 +307,6 @@ footer {
     padding-right: 30px;
     word-spacing: 5px;
     line-height: 30px;
-    background-color: orange;
   }
   .item:hover {
     width: 450px;
@@ -324,7 +323,7 @@ footer {
     margin: auto;
   }
   .proj-title {
-    margin-right: 120px;
+    margin-right: 150px;
   }
 
   .icons {
