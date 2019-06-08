@@ -368,7 +368,7 @@ body {
 @media (min-width: 481px) and (max-width: 812px) {
   .container {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
   }
   .header {
     top: 30px;
