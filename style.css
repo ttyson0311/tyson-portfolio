@@ -298,6 +298,10 @@ footer {
     margin-left: 30px;
     margin-right: 0px;
   }
+
+  .icons {
+    margin-left: 450px;
+  }
 }
 
 /***** TABLET AND LANDSCAPE MOBILE******/
@@ -334,5 +338,9 @@ footer {
   .tech-container {
     margin-left: 30px;
     margin-right: 0px;
+  }
+
+  .contact-icon {
+    padding-left: 150px;
   }
 }
