@@ -41,6 +41,13 @@
 /*  Title Portfolio End*/
 
 /* Portfolio */
+.proj-title {
+  text-align: center;
+  color: black;
+  font-family: "Spectral SC", serif;
+  font-size: 16px;
+  font-weight: normal;
+}
 
 .image {
   opacity: 1;
@@ -300,6 +307,7 @@ footer {
     padding-right: 30px;
     word-spacing: 5px;
     line-height: 30px;
+    background-color: orange;
   }
   .item:hover {
     width: 450px;
@@ -314,6 +322,9 @@ footer {
     grid-row-gap: 40px;
     padding-left: 180px;
     margin: auto;
+  }
+  .proj-title {
+    margin-right: 120px;
   }
 
   .icons {
