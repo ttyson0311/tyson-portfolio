@@ -318,11 +318,7 @@ footer {
   }
 
   .proj-title {
-    margin-right: 50px;
-    color: black;
-    font-family: "Spectral SC", serif;
-    font-size: 16px;
-    font-weight: normal;
+    margin-right: 100px;
   }
 
   .icons {
